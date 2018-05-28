@@ -167,12 +167,14 @@ http://bootsnipp.com/snippets/yGbV
 */
 
 .timeline {
+	top:15px;
 	list-style: none;
 	padding: 20px 0 20px;
 	position: relative;
-	margin-bottom: 65px;
+	margin-bottom: 35px;
 	margin-left: 25px;
 	margin-right: 25px;
+	margin-top: 10px;
 }
 
 .timeline:before {
