@@ -13,7 +13,7 @@ $blue1: #00DFFC;
 */
 
 body {
-	background: url('../images/background.png') no-repeat center center fixed;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url('../images/back4.jpeg') no-repeat center center fixed;
 	background-size: cover;
 	color: white;
 	font-family: 'Quicksand', sans-serif;
@@ -21,12 +21,12 @@ body {
 
 /* Hyperlinks */
 a, a:focus {
-	color: #332222;
+	color: #fff;
 	text-decoration: none;
 }
 
 a:hover {
-	color: white;
+	color: orangered;
 	text-decoration: none;
 }
 
@@ -50,7 +50,7 @@ a:hover {
 }
 
 .round-button a:hover i {
-	color: #332222;
+	color: orangered;
 }
 
 /* Navbar */
@@ -114,10 +114,25 @@ a:hover {
 
 .profile h1 {
 	font-size: 4em;
+	font-weight: 700;
 }
 
+.profile h3 {
+	font-size: 3rem;
+	font-weight: 400;
+}
+
+
 .profile .img-circle {
-	max-width: 230px;
+	max-width: 320px;
+	border: 5px solid #fff;
+	padding: 10px;
+	border-radius: 50%;
+}
+.profile .img-circle:hover {
+	max-width: 320px;
+	border: 5px solid #332222;
+	padding: 10px;
 	border-radius: 50%;
 }
 
@@ -140,15 +155,16 @@ a:hover {
 }
 
 .fp-controlArrow.fp-prev {
-	/*left: -25px;*/
-	width: 50px;
-	background: url('../images/fa-angle-left.png') no-repeat;
+	left: -25px;
+	width: 120px;
+	background: url('../images/font-awesome_4-7-0_angle-left_25_0_ffffff_none.png') no-repeat;
+	
 }
 
 .fp-controlArrow.fp-next {
-	/*right: -25px;*/
-	width: 50px;
-	background: url('../images/fa-angle-right.png') no-repeat;
+	right: -115px;
+	width: 120px;
+	background: url('../images/font-awesome_4-7-0_angle-right_25_0_ffffff_none.png') no-repeat;
 }
 
 .fp-slides {
